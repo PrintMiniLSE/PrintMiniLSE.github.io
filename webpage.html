@@ -1,7 +1,65 @@
-<!DOCTYPE html> 
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add this CSS directly within the <style> tag in your HTML file */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px; /* Adjust padding as needed */
+            background-color: #333; /* Background color for the header */
+            color: #fff; /* Text color for the header */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px; /* Adjust spacing between navigation links */
+        }
+
+        /* Style the navigation links */
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Style the "Contacts" link */
+        .contacts-link {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Style the "Contacts" link on hover */
+        .contacts-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello Worl</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Min Hui Kim</h1>
+        <nav>
+            <ul>
+                <li><a href="#" class="about-me">About Me</a></li>
+                <li><a href="#" class="research-interest">Research Interest</a></li>
+                <li><a href="https://www.linkedin.com/in/min-hui-k-492171185" class="contacts-cv">Contacts C.V.</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <footer>
+        <p>&copy; 2023 Min Hui Kim</p>
+    </footer>
 </body>
 </html>
